@@ -63,8 +63,8 @@ pipeline {
 def build_docker_image(){
     echo "Building docker image.."
     sh 'ls'
-    sh 'docker build -t mtararujs/sample-book-app:latest .'
-    sh 'docker push mtararujs/sample-book-app:latest'
+    sh 'docker build -t razmadzeb/sample-book-app:latest .'
+    sh 'docker push razmadzeb/sample-book-app:latest'
 }
 
 def run_unit_tests(){
